@@ -1,0 +1,186 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4
+}
+
+/* Global */
+
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header{
+    background-color: #312e2e;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #d32b2b 3px solid;
+}
+
+.it {
+    font-size: 35px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header ul{
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 5px 20px;
+}
+
+header #branding{
+    font-size: 20px;
+    padding-left: 10px;
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+
+header .highlight, header .current a{
+    color: #d32b2b;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #d32b2b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#showcase {
+    text-align: center;
+    height: 350px;
+    color: #d32b2b;
+}
+
+#showcase h1 {
+    padding: 0;
+    margin-top: 60px;
+    font-size: 80px;
+}
+
+#showcase h1 span {
+    color: #312e2e;
+}
+
+#showcase p {
+    color: #312e2e;
+    font-size: 20;
+    position: relative;
+    bottom: 40px;
+}
+
+#showcase strong {
+    position: relative;
+    bottom: 20px;
+    padding: 15px;
+    border: 1px solid #d32b2b;
+    border-radius: 20px;
+}
+
+#showcase strong:hover {
+    background-color: #d32b2b;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.animateredirect {
+    transform: rotate(90deg);
+    margin:auto;
+    padding-left: 20px;
+}
+
+#latestreleases {
+    padding: 0;
+    background-color: #312e2e;
+    color: #ffffff;
+    text-align: center;
+}
+
+#latestreleases h1 {
+    margin: 0;
+    padding: 15px;
+}
+
+#latestreleases h1, #latestreleases form {
+    display: inline;
+}
+
+#latestreleases button {
+    height: 31px;
+    width: 150px;
+    background-color: #d32b2b;
+    color: #ffffff;
+    border: 0;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#moreinfo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#moreinfo .box {
+    float: left;
+    width: 31%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+#moreinfo .box h3 {
+    padding: 0;
+    margin: auto;
+}
+
+#moreinfo .box p {
+    padding: 0;
+    margin: auto;
+    font-size: 13px;
+}
+
+.box .fa {
+    font-size: 50px;
+    color: #d32b2b;
+}
+
+.box a:hover {
+    cursor: pointer;
+}
+
+footer {
+    bottom: 0;
+    border-top: 3px solid #d32b2b;
+    background-color: #312e2e;
+    color: #ffffff;
+    text-align: center;
+}
